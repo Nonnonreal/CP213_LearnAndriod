@@ -20,6 +20,7 @@ data class PokemonSpecies(
     val url: String
 )
 
+
 // --- ส่วนที่ 2: API Interface (เมนูสั่งอาหาร) ---
 interface PokemonApiService {
     @GET("pokedex/2/") // Endpoint ที่เราจะเรียก

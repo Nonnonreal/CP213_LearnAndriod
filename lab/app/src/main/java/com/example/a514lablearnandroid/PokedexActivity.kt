@@ -38,6 +38,7 @@ class PokedexActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Log.i("Lifecycle", "PokedexActivity : onCreate")
+        viewModel.fetchPokemon()
         enableEdgeToEdge()
         setContent {
             ListScreen(viewModel)
