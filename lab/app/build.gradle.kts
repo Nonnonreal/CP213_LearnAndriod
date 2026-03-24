@@ -65,6 +65,9 @@ dependencies {
 
     // Lifecycle & ViewModel สำหรับ Compose
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
+
+    // Location Services
+    implementation("com.google.android.gms:play-services-location:21.1.0")
 }
 
 

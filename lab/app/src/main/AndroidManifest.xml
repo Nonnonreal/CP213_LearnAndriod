@@ -3,6 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -52,6 +59,21 @@
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme._514LabLearnAndroid"></activity>
+        <activity
+            android:name=".CameraActivity"
+            android:exported="false"
+            android:label="Camera Activity"
+            android:theme="@style/Theme._514LabLearnAndroid" />
+        <activity
+            android:name=".GalleryActivity"
+            android:exported="false"
+            android:label="Gallery Activity"
+            android:theme="@style/Theme._514LabLearnAndroid" />
+        <activity
+            android:name=".SensorLocationActivity"
+            android:exported="false"
+            android:label="Sensor Location Activity"
+            android:theme="@style/Theme._514LabLearnAndroid" />
     </application>
 
 </manifest>
