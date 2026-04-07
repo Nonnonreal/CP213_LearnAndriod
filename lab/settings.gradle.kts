@@ -19,6 +19,7 @@ dependencyResolutionManagement {
     }
 }
 
+//enableFeaturePreview("VERSION_CATALOGS")
 rootProject.name = "514LabLearnAndroid"
 include(":app")
  

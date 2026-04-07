@@ -74,6 +74,11 @@
             android:exported="false"
             android:label="Sensor Location Activity"
             android:theme="@style/Theme._514LabLearnAndroid" />
+        <activity
+            android:name=".Part1AnimationActivity"
+            android:exported="false"
+            android:label="Part 1 Animation"
+            android:theme="@style/Theme._514LabLearnAndroid" />
     </application>
 
 </manifest>
