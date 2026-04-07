@@ -89,6 +89,11 @@
             android:exported="false"
             android:label="Part 3 Activity"
             android:theme="@style/Theme._514LabLearnAndroid" />
+        <activity
+            android:name=".Part4Activity"
+            android:exported="false"
+            android:label="Part 4 Activity"
+            android:theme="@style/Theme._514LabLearnAndroid" />
     </application>
 
 </manifest>

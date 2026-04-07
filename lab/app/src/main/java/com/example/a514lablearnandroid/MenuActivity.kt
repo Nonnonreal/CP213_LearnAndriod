@@ -69,6 +69,11 @@ class MenuActivity : ComponentActivity() {
                 }) {
                     Text("Part3Activity")
                 }
+                Button(onClick = {
+                    startActivity(Intent(this@MenuActivity, Part4Activity::class.java))
+                }) {
+                    Text("Part4Activity")
+                }
             }
         }
     }
